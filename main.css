@@ -1,0 +1,165 @@
+/*
+Colors
+White smoke: #f8f8f8
+Dim gray: #626262
+Silver: #dcdcdc
+*/
+
+*,
+body {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f8f8;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Nav */
+nav {
+  width: 100%;
+}
+
+.container-nav {
+  width: 1200px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.container-nav .hamburger {
+  float: left;
+  padding: 5px 50px;
+  font-size: 30px;
+  color: #626262;
+}
+
+.container-nav h1 {
+  font-size: 30px;
+  padding: 5px;
+  text-align: center;
+  color: #626262;
+}
+
+h1 .silver {
+  color: #dcdcdc;
+}
+
+/* Content */
+.container-frames {
+  width: 1200px;
+  margin: 50px auto;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.frame {
+  width: 300px;
+  height: 400px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #ffff;
+  border-radius: 4px;
+  position: relative;
+}
+
+.img {
+  width: 300px;
+  height: 150px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.frame .view {
+  width: 60px;
+  height: 60px;
+  background-color: black;
+  border: 0.5px solid white;
+  border-radius: 50%;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+
+.view p {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.container-text {
+  padding: 10px;
+}
+
+.container-text .app-name,
+.description {
+  text-align: center;
+}
+
+.container-text .app-name {
+  padding: 20px 0 0;
+  color: #626262;
+}
+
+.container-text .description {
+  padding: 0 20px;
+  color: #c4c4c4;
+}
+
+/* Frame Alt */
+.frame-alt {
+  width: 300px;
+  height: 600px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #ffff;
+  border-radius: 4px;
+  position: relative;
+}
+
+.img-alt {
+  width: 300px;
+  height: 300px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.frame-alt .view-alt {
+  width: 60px;
+  height: 60px;
+  background-color: black;
+  border: 0.5px solid white;
+  border-radius: 50%;
+  position: absolute;
+  top: 45%;
+  left: 40%;
+}
+
+.view-alt p {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.container-text-alt {
+  padding: 10px;
+}
+
+.container-text-alt .app-name-alt,
+.description-alt {
+  text-align: center;
+}
+
+.container-text-alt .app-name-alt {
+  padding: 20px 0 0;
+  color: #626262;
+}
+
+.container-text-alt .description-alt {
+  padding: 0 20px;
+  color: #c4c4c4;
+}
