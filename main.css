@@ -31,9 +31,10 @@ nav {
   justify-content: space-around;
 }
 
-.container-nav .fa-address-card {
+.container-nav .fa-user,
+.fa-home {
   padding: 10px 0 0 60px;
-  font-size: 30px;
+  font-size: 25px;
   color: #626262;
 }
 
@@ -112,11 +113,6 @@ h1 .silver {
 
 .container-text {
   padding: 10px;
-  width: 300px;
-}
-
-.container-text .app-name,
-.description {
   text-align: center;
 }
 
@@ -133,6 +129,7 @@ h1 .silver {
 .lower-git {
   color: #626262;
   font-size: 20px;
+  display: block;
 }
 
 /* Frame Alt */
@@ -182,6 +179,7 @@ h1 .silver {
 
 .container-text-alt {
   padding: 10px;
+  text-align: center;
 }
 
 .container-text-alt .app-name-alt,
@@ -197,4 +195,16 @@ h1 .silver {
 .container-text-alt .description-alt {
   padding: 0 20px;
   color: #c4c4c4;
+}
+
+/* About Page */
+
+.container-text .about {
+  padding: 20px 0 0;
+  color: #626262;
+}
+
+.container-text .about-description {
+  padding: 20px 0 0;
+  color: #626262;
 }
