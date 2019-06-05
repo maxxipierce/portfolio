@@ -4,7 +4,6 @@ White smoke: #f8f8f8
 Dim gray: #626262
 Silver: #dcdcdc
 */
-
 *,
 body {
   box-sizing: border-box;
@@ -38,14 +37,14 @@ nav {
   color: #626262;
 }
 
-.container-nav h1 {
+.container-nav .header {
   font-size: 30px;
   padding: 5px 0;
   color: #626262;
   margin: 0 auto;
 }
 
-h1 .silver {
+.header .silver {
   color: #dcdcdc;
 }
 
@@ -71,10 +70,6 @@ h1 .silver {
   flex-wrap: wrap;
 }
 
-/* a:hover {
-  background-color: black;
-} */
-
 .frame {
   width: 300px;
   height: 400px;
@@ -83,6 +78,7 @@ h1 .silver {
   background-color: #ffff;
   border-radius: 4px;
   position: relative;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .img {
@@ -141,6 +137,7 @@ h1 .silver {
   background-color: #ffff;
   border-radius: 4px;
   position: relative;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .margin-up {
@@ -207,4 +204,48 @@ h1 .silver {
 .container-text .about-description {
   padding: 20px 0 0;
   color: #626262;
+}
+
+/* Cell Phone */
+@media (max-width: 850px) {
+  .container-nav {
+    width: 100%;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .container-nav .fa-user,
+  .fa-home {
+    margin: 40px auto 0;
+    padding: 10px;
+  }
+
+  .container-nav .header {
+    margin: 0 auto;
+  }
+
+  .container-nav .links {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 0;
+  }
+
+  .container-frames {
+    margin: 30px auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .frame {
+    margin: 20px auto;
+  }
+
+  .frame-alt {
+    margin: 20px auto;
+  }
 }
