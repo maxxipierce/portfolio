@@ -8,6 +8,7 @@ Silver: #dcdcdc
 *,
 body {
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
@@ -30,8 +31,8 @@ nav {
   justify-content: space-around;
 }
 
-.container-nav .hamburger {
-  padding: 0 0 0 60px;
+.container-nav .fa-address-card {
+  padding: 10px 0 0 60px;
   font-size: 30px;
   color: #626262;
 }
@@ -51,10 +52,12 @@ h1 .silver {
   padding: 0 50px 0 0;
 }
 
-.container-nav .fa-github {
-  font-size: 40px;
-  color: white;
+.container-nav .upper-git,
+.fa-linkedin {
+  font-size: 25px;
   margin: 0;
+  padding: 5px;
+  color: #626262;
 }
 
 /* Content */
@@ -66,6 +69,10 @@ h1 .silver {
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+/* a:hover {
+  background-color: black;
+} */
 
 .frame {
   width: 300px;
@@ -82,6 +89,7 @@ h1 .silver {
   max-height: 150px;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
+  border-bottom: 1px solid lightgray;
 }
 
 .frame .view {
@@ -104,6 +112,7 @@ h1 .silver {
 
 .container-text {
   padding: 10px;
+  width: 300px;
 }
 
 .container-text .app-name,
@@ -119,6 +128,11 @@ h1 .silver {
 .container-text .description {
   padding: 0 20px;
   color: #c4c4c4;
+}
+
+.lower-git {
+  color: #626262;
+  font-size: 20px;
 }
 
 /* Frame Alt */
@@ -145,6 +159,7 @@ h1 .silver {
   height: 300px;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
+  border-bottom: 1px solid lightgray;
 }
 
 .frame-alt .view-alt {
