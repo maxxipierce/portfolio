@@ -4,14 +4,16 @@ White smoke: #f8f8f8
 Dim gray: #626262
 Silver: #dcdcdc
 */
+
 *,
-body {
+*::before,
+*::after {
   box-sizing: border-box;
-  text-decoration: none;
 }
 
 body {
   background-color: #f8f8f8;
+  text-decoration: none;
   font-family: "Roboto Condensed", sans-serif;
   margin: 0;
   padding: 0;
@@ -75,6 +77,10 @@ body {
   border-radius: 4px;
   position: relative;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.image-frame .img {
+  max-width: 100%;
 }
 
 .img {

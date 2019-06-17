@@ -6,9 +6,9 @@ Silver: #dcdcdc
 */
 
 *,
-body {
+::after,
+::before {
   box-sizing: border-box;
-  text-decoration: none;
 }
 
 body {
@@ -18,7 +18,15 @@ body {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Nav */
+nav {
+  width: 100%;
+}
+
 .container-nav {
   width: 100%;
   margin: 20px auto;
@@ -55,7 +63,7 @@ body {
 /* Content */
 .container-frames {
   margin: 0 auto;
-  width: 400px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -230,8 +238,12 @@ body {
     flex-wrap: wrap;
   }
 
-  .margin-fix {
-    margin: -200px auto;
+  .container-frames .frame.margin-fix {
+    margin-top: -130px;
+  }
+
+  .container-frames .frame.margin-fix-more {
+    margin-top: -275px;
   }
 }
 
@@ -262,10 +274,14 @@ body {
   }
 
   .margin-up {
-    margin: -100px auto;
+    margin-top: -100px;
   }
 
-  .margin-down {
-    margin: 100px auto;
+  .container-frames .frame.margin-fix {
+    margin-top: 20px;
+  }
+
+  .container-frames .frame.margin-down {
+    margin-top: 50px;
   }
 }
