@@ -1,11 +1,12 @@
 *,
-body {
+*:before,
+*:after {
   box-sizing: border-box;
-  text-decoration: none;
 }
 
 body {
   background-color: #f8f8f8;
+  text-decoration: none;
   font-family: "Roboto Condensed", sans-serif;
   margin: 0;
   padding: 0;
@@ -38,7 +39,7 @@ body {
 /* Content */
 .container-frames {
   margin: 0 auto;
-  width: 400px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -49,7 +50,6 @@ body {
   height: inherit;
   margin: 20px auto;
   background-color: #ffff;
-  border-radius: 4px;
   position: relative;
 }
 
